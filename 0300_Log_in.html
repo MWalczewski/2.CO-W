@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.
+0"
+    />
+    <title>log-in</title>
+    <link rel="stylesheet" href="0300_Log_in_style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-wrapper">
+        <div class="login-section">
+          <h1>Zaloguj się</h1>
+          <button class="fb-button">
+            <img class="social-logo" src="./images/fb_logo.png" />Zaloguj się
+            przez Facebook
+          </button>
+          <button class="insta-button">
+            <img class="social-logo" src="./images/insta_logo.png" />Zaloguj się
+            przez Instagram
+          </button>
+          <div class="divider-wrapper">
+            <div class="divider"></div>
+            <div class="text-divider">Lub za pomocą maila</div>
+            <div class="divider"></div>
+          </div>
+          <form>
+            <div class="email-input">
+              <input type="email" class="email" placeholder="E-mail Address" />
+              <label for="email-address">E-mail Address</label>
+            </div>
+            <div class="password-input">
+              <input
+                type="password"
+                class="password"
+                placeholder="Password"
+                minlength="6"
+              />
+              <label for="password">Password</label>
+            </div>
+            <div class="checks">
+              <span class="checkbox">
+                <input type="checkbox" />Zapamiętaj mnie
+              </span>
+              <a class="link" href="">Zapomniałem hasła</a>
+            </div>
+            <button class="log-in_button">Zaloguj się</button>
+          </form>
+          <div class="divider-bottom"></div>
+          <div class="no-account">
+            Nie masz jeszcze konta?
+            <a class="link" href="">Zarejestruj się</a>
+          </div>
+        </div>
+      </div>
+      <div class="image-section">
+        <img id="image-text" src="./images/image_text.png" />
+      </div>
+    </div>
+  </body>
+</html>

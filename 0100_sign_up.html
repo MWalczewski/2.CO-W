@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.
+0"
+    />
+    <title>sign-up</title>
+    <link rel="stylesheet" href="0100_sign_up_style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-wrapper">
+        <div class="login-section">
+          <h1>Zarejestruj się</h1>
+          <button class="fb-button">
+            <img class="social-logo" src="./images/fb_logo.png" />Rejestracja
+            przez Facebook
+          </button>
+          <button class="insta-button">
+            <img class="social-logo" src="./images/insta_logo.png" />Rejestracja
+            przez Instagram
+          </button>
+          <div class="divider-wrapper">
+            <div class="divider"></div>
+            <div class="text-divider">Lub za pomocą maila</div>
+            <div class="divider"></div>
+          </div>
+          <form>
+            <div class="names">
+              <div class="first-name-input">
+                <input
+                  type="text"
+                  class="first-name"
+                  placeholder="First Name"
+                />
+                <label for="first-name">First Name</label>
+              </div>
+              <div class="last-name-input">
+                <input type="text" class="last-name" placeholder="Last Name" />
+                <label for="last-name">Last Name</label>
+              </div>
+            </div>
+            <div class="email-input">
+              <input type="email" class="email" placeholder="E-mail Address" />
+              <label for="email-address">E-mail Address</label>
+            </div>
+            <div class="password-input">
+              <input
+                type="password"
+                class="password"
+                placeholder="Password"
+                minlength="6"
+              />
+              <label for="password">Password</label>
+            </div>
+            <div class="Terms-Conditions-checkbox">
+              <input type="checkbox" />I have read the
+              <a class="link" href="">Terms & Conditions</a>
+            </div>
+            <button class="register">Zarejestruj się za darmo</button>
+          </form>
+          <div class="divider-bottom"></div>
+          <div class="existing-account">
+            Masz już konto?
+            <a class="link" href="">Zaloguj się</a>
+          </div>
+        </div>
+      </div>
+      <div class="image-section">
+        <img id="image-text" src="./images/image_text.png" />
+      </div>
+    </div>
+  </body>
+</html>
